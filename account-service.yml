@@ -3,3 +3,10 @@ devguide:
 
 test:
   greeting: "안녕하세요"
+
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    jdbc-url: jdbc:mysql://127.0.0.1:3306/inst1?characterEncoding=utf8&serverTimezone=UTC
+    username: liivon
+    password: qwe123!@#
